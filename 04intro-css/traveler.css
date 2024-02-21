@@ -28,11 +28,13 @@ h1 {
 /*---  This is where I format the navigation. ---*/
 nav {
     background-color: #ddcfcf;
+    text-align: center;
 
 }
 
 nav ul {
     list-style-type: none;
+    text-align: center;
     padding: 0 2vw;
     margin: 0;
     display: flex;
@@ -78,7 +80,7 @@ main p{
     
 }
 main ol{
-    padding: .5rem 3vw;
+    padding: 1rem 3vw;
     background-color: #d9c2c2;
 }
 
