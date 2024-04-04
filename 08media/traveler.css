@@ -1,0 +1,390 @@
+/*---  This is my css page. ---*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+}
+
+/*---  This is where I format the header. ---*/
+
+header{
+   background-color:#fffafa; 
+   padding: 2rem 2vw;
+   display: flex;
+   align-items: flex-end;
+}
+
+header div {
+    padding: 2rem 2vw;
+}
+
+header p {
+    letter-spacing: 1px;
+    font-size: 1rem;
+
+}
+header h1, p {
+    margin: 1px;
+    color: #270d0d;
+    text-align: center;
+
+
+}
+h1 {
+    text-align: center;
+}
+  h2 {
+    text-align: center;
+    font-weight: normal;
+  }
+  h3 {
+    text-align: center;
+    font-weight: normal;
+
+  }
+
+p {
+    padding: 1%;
+}
+
+
+    
+    
+/*---  This is where I format the navigation. ---*/
+/*
+nav {
+    background-color: #ddcfcf;
+    margin: 0;
+    padding: 0 2vw;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    text-decoration-line: none;
+    text-decoration-color: rgb(92, 92, 92);
+    font-size: 1rem;
+    color: #212121;
+    font-weight: 500;
+    display: block;
+    padding: 2rem 2rem;
+    
+   
+}
+nav a:hover{
+    color: white;
+}
+nav li.active a {
+    background-color: #270d0d;
+    color: #ffd0d0;
+}
+*/
+/* Media Queries Small Screen Here*/
+
+@media only screen and (max-width: 600px){
+    nav ul{
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    nav a {
+        display: block;
+        padding: .8rem; 
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: capitalize;
+        text-align: center;
+        border: solid 1px #d9c2c2;
+        color: #97585a;
+    }
+    nav li.active a{
+        background-color: #97585a;
+        color: white;
+        background-image: linear-gradient(to bottom, #d9c2c2, #97585a);
+    }
+    
+    }
+    /* Media Queries Large Screen Here*/
+    @media only screen and (min-width: 601px){
+        nav {
+            border-top: solid 1px #d9c2c2;
+            
+        }
+        nav ul {
+            margin: 0;
+            padding: 0 2vw;
+            list-style-type: none;
+            display: flex;
+        }
+        nav a {
+            display: block;
+            padding: 1.2rem 1rem .3rem 1rem;
+            font-size: 1rem;
+            text-decoration: none;
+            color: #97585a;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: solid 2px #fff;
+        }
+        
+        nav .active a {
+            border-bottom: solid 2px #97585a;
+        }
+        nav a:hover {
+            color: #000;
+        }    
+    
+    }
+    
+/*---  This is where I format the main section. ---*/
+
+main {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+
+main h1{
+font-family: 'Montserrat', sans-serif;
+color: rgb(187, 101, 108, 0.8);
+font-size: 2.5rem;
+margin: .5rem 1rem .8rem 1rem;
+
+}
+
+main h2{
+    color:#270d0d;
+    margin-bottom: .2rem;
+    padding: 10px;
+    
+}
+main h3{
+    color:#373737;
+    margin-bottom: .2rem;
+    padding: 10px;
+    
+    
+}
+main p{
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+    line-height: 150%;
+    padding: 0;
+    
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px;
+}
+
+main ol{
+    padding: 1rem 3vw;
+    background-color: #d9c2c2;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+main dl dt{
+   color: #4c2629;
+   font-weight: 700;
+   padding: 10px;
+}
+
+main dl dd {
+    color: #4b3838;
+    font-size: .9rem;
+    padding: 10px;
+}
+
+
+main ul{
+    list-style-type:circle;
+    display: flex;
+  
+
+
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .7rem;
+    padding: 10px;
+}
+
+div.index ul{ text-align: center; }
+main ul li { 
+    display: inline-block; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+address {
+    text-align: left;
+    display: block;
+    font-style: normal;
+    background-color: #f4f4f4;
+    padding: .5rem;
+    width: 15rem;
+    border: 1px none;
+    border-radius: .8rem;
+
+}
+/* image stuff here */
+
+figure.hairproaccount {
+    width: 100%;
+    margin: 0 0 0 0;
+    align-content: center;
+}
+figure.hairproaccount  img {
+    width: 100%;
+    height: auto;
+}
+figure.about {
+    width: 100%;
+    margin: 0 0 0 0;
+    align-content: center;
+}
+figure.about  img {
+    width: 100%;
+    height: auto;
+}
+
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+div.gallery figure{
+    margin: 2rem 2rem 2rem 2rem;
+    box-shadow: 1px 1px 4px #97585a;
+   
+    display: inline-block; 
+    text-align: center;
+    margin: 1rem auto;
+
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #382b28;
+ 
+}
+
+/* form stuff here */
+
+.myform fieldset{
+    border: 1px solid #97585a;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+.myform legend {
+    color: #b67b77;
+    font-size: .8rem;
+}
+
+.myform label {
+    margin: .5rem;
+}
+.myform label,.myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+    display: block;
+}
+
+.myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+    border: solid 1px #494949;
+    padding: .3rem;
+    width: 250px;
+    font-family: 'Monserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+
+.myform textarea {
+    height: 6rem;
+}
+
+.myform :required{
+    background-color: rgba(156,51,53,0.1);
+}
+
+.myform [type=submit] {
+    background-color: #b67b77;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+figure.hero {
+    width: 100%;
+    margin: 0;
+
+}
+figure.hero img {
+    width: 100%;
+    
+    margin: 0 auto;
+
+}
+
+/* table formating here */
+
+table.pricelist {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+table.pricelist th {
+    background-color:  #d9c2c2;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+table.pricelist td {
+    color: #97585a;
+    padding: .4rem 2vw;
+}
+
+table.pricelist tr:nth-child(odd)  {
+    background-color: #f7f7f7;
+
+}
+
+table.pricelist tr:hover {
+    background-color: rgba(142, 114, 114, 0.422)
+}
+
+/*---  This is where I format the footer section. ---*/
+
+
+footer {
+    background-color: #ddcfcf;
+    text-align: center;
+    color: #1d1d1d;
+    padding: 3rem 0;
+    font-size: .8rem;
+}
+footer a{
+    color: #1d1d1d;
+    
+}
+nav,main,footer {
+    max-width: 60rem;
+    margin: 0 auto;
+}
